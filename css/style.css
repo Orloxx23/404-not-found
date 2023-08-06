@@ -97,3 +97,36 @@
   text-transform: uppercase;
   cursor: pointer;
 }
+
+footer {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: calc(100% - 48px);
+  padding: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+}
+
+footer p {
+  color: #bdbdbd;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+footer a {
+  text-decoration: none;
+  color: #bdbdbd;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-decoration-line: underline;
+}

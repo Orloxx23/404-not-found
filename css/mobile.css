@@ -109,4 +109,8 @@
     outline: none;
     box-shadow: none;
   }
+
+  footer {
+    padding: 12px;
+  }
 }
