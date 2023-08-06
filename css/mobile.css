@@ -1,0 +1,112 @@
+@media screen and (max-width: 900px) {
+  * {
+    margin: 0;
+    padding: 0;
+  }
+
+  .main_conatiner {
+    background: white;
+    padding: 24px 20px;
+    position: relative;
+  }
+
+  .nav_text {
+    color: #333;
+    font-family: Inconsolata;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -1.92px;
+    text-transform: uppercase;
+  }
+
+  .row {
+    position: static;
+    top: auto;
+    left: auto;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .col {
+    width: 100%;
+    height: auto;
+    font-family: Space Mono;
+    display: flex;
+    
+  }
+
+  .image {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+
+  .col:first-child {
+    width: 85%;
+    min-height: 50%;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .col:last-child {
+    height: auto;
+    justify-content: flex-start;
+    align-items: center;
+  }
+
+  .content {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+    gap: 1.5rem;
+  }
+
+  .content h1 {
+    width: 100%;
+    color: var(--gray-1, #333);
+    font-family: Space Mono;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -1.68px;
+  }
+
+  .content p {
+    width: 100%;
+    color: var(--gray-2, #4f4f4f);
+    font-family: Space Mono;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.63px;
+  }
+
+  .content button {
+    width: 216px;
+    height: 68px;
+    flex-shrink: 0;
+    background: var(--gray-3, #333);
+    color: #fff;
+    font-family: Space Mono;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.49px;
+    text-transform: uppercase;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    box-shadow: none;
+  }
+}
