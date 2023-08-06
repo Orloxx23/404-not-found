@@ -12,7 +12,7 @@
       Demo
     </a>
     <span> | </span>
-    <a href="https://github.com/Orloxx23/404-not-found">
+    <a href="https://devchallenges.io/solutions/mmhX637gclQbxmJLIYGt">
       Solution
     </a>
     <span> | </span>
