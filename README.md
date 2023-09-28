@@ -44,6 +44,6 @@ This application/site was created as a submission to a [DevChallenges](https://d
 
 ## Contact
 
-- Website [orlandomm.me](https://orlandomm.me)
+- Website [orlandomm.net](https://orlandomm.net)
 - GitHub [@Orloxx23](https://github.com/orloxx23)
 - Twitter [@Orloxx23](https://twitter.com/orloxx23)
